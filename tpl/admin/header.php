@@ -22,10 +22,8 @@
                 <div class = "layui-col-lg12">
                     <div class="left-menu"><a href="../"><h1>ImgURL</h1></a></div>
                         <ul class="layui-nav menu" lay-filter="">
-                            <li class="layui-nav-item"><a href="./"><i class="layui-icon">&#xe68e;</i> 首页</a></li>
-                            <li class="layui-nav-item"><a href="senioradmin.php?type=user&page=1"><i class="layui-icon">&#xe7a0;</i> 游客上传</a></li>
-                            <li class="layui-nav-item"><a href="senioradmin.php?type=admin&page=1"><i class="layui-icon">&#xe622;</i> 管理员上传</a></li>
-                            <li class="layui-nav-item"><a href="senioradmin.php?type=dubious&page=1"><i class="layui-icon">&#xe60b;</i> 可疑图片</a></li>
+                            <li class="layui-nav-item"><a href="./"><i class="layui-icon">&#xe68e;</i> 后台首页</a></li>
+                            <li class="layui-nav-item"><a href="./urlup.php"><i class="layui-icon">&#xe64c;</i> URL上传</a></li>
                         </ul>
                     <div class="right-menu">
                         <ul class="layui-nav menu" lay-filter="">

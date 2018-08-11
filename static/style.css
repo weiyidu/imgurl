@@ -35,7 +35,13 @@
     margin-left:auto;
     margin-right:auto;
     margin-top:2em;
-    width:94.6%;
+    /*width:94.6%;*/
+    width:100%;
+     -moz-box-sizing: border-box; /*Firefox3.5+*/
+	-webkit-box-sizing: border-box; /*Safari3.2+*/
+	-o-box-sizing: border-box; /*Opera9.6*/
+	-ms-box-sizing: border-box; /*IE8*/
+	box-sizing: border-box; 
     left:0%;
     background-color:#F9F9F9;
 }
@@ -170,4 +176,32 @@
 }
 .layui-table img {
     max-width: 460px;
+}
+.viewimg{
+	position: absolute;
+	display:none;
+	border:1px solid #F0F0F0;
+	border-radius:5px;
+	z-index:99;
+	top:3em;
+}
+.viewimg img{
+	max-width:660px;
+}
+
+#adminshow{
+	display: none;
+}
+#adminshow img{
+	max-width:680px;
+	text-align:center;
+	
+}
+#copy{
+	width:680px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.urltext{
+	margin-top:2em;
 }
